@@ -4,7 +4,7 @@ var parse = require('body-parser');
 var app = express();
 
 app.get('/', (req, res) => {
-    res.send('<h1>Ganaagaraj</h1>')
+    res.send('<h1>Ganagaraj says hi</h1>')
 })
 
 app.listen(3000, () => {
